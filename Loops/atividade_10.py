@@ -1,8 +1,8 @@
-from Loops.printList import get_text_list
-from Loops.validNumber import get_number, clear
+from printList import get_text_list
+from validNumber import get_number, clear
 
 print("Calculo de média de notas")
-print("-"*25)
+print("-" * 25)
 
 grades = []
 

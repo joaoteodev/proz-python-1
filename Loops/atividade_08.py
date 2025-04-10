@@ -1,7 +1,8 @@
-from Loops.printList import get_text_list
-from Loops.validNumber import get_number
+from printList import get_text_list
+from validNumber import get_number
 
 print("Seqência de Fibonacci\n")
+
 
 def get_fibonacci_sequence(n):
     # fibonacci = [0, 1]
@@ -15,13 +16,14 @@ def get_fibonacci_sequence(n):
     #     return 0
 
     while len(fibonacci) < n:
-            # fibonacci.append(fibonacci[-1] + fibonacci[-2])
+        # fibonacci.append(fibonacci[-1] + fibonacci[-2])
         if len(fibonacci) == 0 or len(fibonacci) == 1:
             fibonacci.append(1)
         else:
             fibonacci.append(fibonacci[-1] + fibonacci[-2])
 
     return fibonacci
+
 
 number = get_number("Digite quantos números da sequência deseja exibir: ")
 

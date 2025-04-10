@@ -1,4 +1,4 @@
-from Loops.validNumber import get_number
+from validNumber import get_number
 
 numbers = []
 

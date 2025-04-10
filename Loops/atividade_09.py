@@ -1,5 +1,5 @@
-from Loops.printList import get_text_list
-from Loops.validNumber import get_number
+from printList import get_text_list
+from validNumber import get_number
 
 
 def is_prime(num1, num2):

@@ -1,4 +1,4 @@
-from Loops.printList import get_text_list
+from printList import get_text_list
 from validNumber import get_number
 
 print("Números pares no intervalo de número")
